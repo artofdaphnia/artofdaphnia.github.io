@@ -1,0 +1,42 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-image: url(https://cdn.glitch.com/5ac94ef3-3c33-4f7b-b15f-96b057e93f62%2FFlag_of_Palestine.svg?v=1571994858142);
+  background-size: cover;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:0;
+}
+
+.cont {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+  text-align: center;
+}
+
+h1, h2 {
+  background: white;
+  font-style: italic;
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: 10vw;
+}
+
+h2 {
+  font-size: 6vw;
+}
+
+@media (orientation:portrait) {
+  body {
+    background-image: url('https://cdn.glitch.com/5ac94ef3-3c33-4f7b-b15f-96b057e93f62%2FFlag_of_Palestine_rotated.svg?v=1571998707598')
+  }
+}
